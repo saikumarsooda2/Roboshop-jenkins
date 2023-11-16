@@ -1,5 +1,0 @@
-- name: set up jenkins pipelines
-  hosts: local host
-  connection: localhost
-  roles:
-    - {{jenkins-job}}
