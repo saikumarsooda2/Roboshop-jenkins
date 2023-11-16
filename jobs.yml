@@ -2,5 +2,5 @@
   hosts: all
   connection: localhost
   roles:
-       - jenkins-jobs.yml
+       - jenkins-jobs
 
