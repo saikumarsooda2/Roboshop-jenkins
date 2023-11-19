@@ -1,6 +1,6 @@
 - name: create jenkins jobs
-  hosts: 172.31.93.116
-  connection: localhost
+  hosts: localhost
+  connection: local
   roles:
        - jenkins-jobs
 
