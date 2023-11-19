@@ -8,5 +8,5 @@
     config: "{{ lookup('file', '/tmp/pipeline.xml') }}"
     name: test
     password: Jenkins
-    url: http://172.31.30.201:8080
+    url: http://172.31.93.116:8080
     user: Jenkins
