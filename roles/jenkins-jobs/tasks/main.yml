@@ -1,5 +1,4 @@
 - name: create jenkins jobs
-  hosts: localhost
-  connection: local
-  file: job.yml
-  loop: "{{jobs}}"
+  ansible.builtin.include_task:
+    file: job.yml
+    loop: "{{jobs}}"
