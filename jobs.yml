@@ -1,7 +1,7 @@
 - name: create jenkins jobs
   hosts: localhost
   connection: local
-  job:
+  jobs:
       vars:
          - catalogue
   roles:
