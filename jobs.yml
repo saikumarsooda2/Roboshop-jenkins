@@ -2,7 +2,7 @@
   hosts: localhost
   connection: local
   vars:
-      Jobs:
+      jobs:
         - catalogue
   roles:
        - jenkins-jobs
